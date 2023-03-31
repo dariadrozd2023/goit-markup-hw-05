@@ -400,6 +400,11 @@ border-radius: 2px;
     align-items: center;
    
 }
+/* .is-hidden{
+    visibility: hidden;
+    opacity:inherit;
+    pointer-events: none;
+}  */
 .modal{
     width: 408px;
     height: 576px;
@@ -416,9 +421,8 @@ border-radius: 2px;
   margin-left: auto;
 }
 .modal-svg{
- 
 
-    fill: var(--naviblue);
+ background:var(--naviblue)
 }
 /*****---------------- offers------------------ */
 
