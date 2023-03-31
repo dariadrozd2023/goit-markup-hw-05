@@ -169,17 +169,6 @@ border-radius: 2px;
 
     margin-right:40px;
 }
-/* .nav-link-item:hover { 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color:var(--ocean);
-}
-.nav-link-item:active{
-    color:var(--ocean);
-}
-.nav-link-item:focus{
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color:var(--ocean);
-} */
 
 
 
@@ -295,6 +284,7 @@ border-radius: 2px;
 
 
 .mainpage-hero{
+   
     max-width: 1440px; 
     margin-left: auto;
     margin-right: auto;
@@ -396,7 +386,40 @@ border-radius: 2px;
 
 
 
+.backdrop{
 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background: rgba(46, 47, 66, 0.4);
+    pointer-events:fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.modal{
+    width: 408px;
+    height: 576px;
+    background: #FCFCFC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+}
+.button-modal{
+    display: flex;
+
+  margin-right: 24px;
+  margin-top: 24px;
+  margin-left: auto;
+}
+.modal-svg{
+ 
+
+    fill: var(--naviblue);
+}
 /*****---------------- offers------------------ */
 
 .offers-list-container{ 
