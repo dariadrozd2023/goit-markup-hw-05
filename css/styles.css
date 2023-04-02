@@ -388,6 +388,8 @@ border-radius: 2px;
    
 }
 .is-hidden{
+    transition-property: transform;
+    transform: scale(-100%);
     visibility: hidden;
     opacity:inherit;
     pointer-events: none;
