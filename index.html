@@ -47,10 +47,10 @@
         <section class="mainpage-hero">
             <div class="container hero-container">
                 <h1 class="mainpage-hero-title">Effective Solutions for Your Business</h1>
-                <button class="button-hero" type="button" data-modal-open>Order Service</button>
-                <div class="backdrop is-hidden" data-modal>
-                    <div class="modal"><button class="button-modal" type="button" data-modal-close>
-                        <svg class="modal-svg" width="8" height="8"><use href="./images/close.svg#icon-close"></use>
+                <button data-modal-open class="button-hero" type="button">Order Service</button>
+                <div data-modal class="backdrop is-hidden">
+                    <div class="modal"><button data-modal-close class="button-modal" type="button">
+                        <svg class="modal-svg" width="8" height="8"><use class="modal-icon" href="./images/symbol-defs.svg#icon-close-modal"></use>
                         </svg></button></div>
                 </div>
             </div>
@@ -320,7 +320,9 @@
         </div>
 
     </footer>
+
 <script src="./js/modal.js"></script>
+
 </body>
 
 </html>
